@@ -25,7 +25,7 @@ namespace TestPipeline
         /// <returns></returns>
         public string FunctionHandler(FunctionInput fn,ILambdaContext context)
         {
-            return "This is Countinous Delivery Baby!!!!!";
+            return "This is Countinous Delivery Its awesome";
         }
     }
 }
