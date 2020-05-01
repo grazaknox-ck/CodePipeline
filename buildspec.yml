@@ -15,5 +15,3 @@ phases:
 artifacts:
   files:
     - TestPipeline\src\TestPipeline\bin\Release\netcoreapp3.1\TestPipeline.zip
-    - scripts/**/*
-    - appspec.yml
