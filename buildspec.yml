@@ -17,7 +17,7 @@ phases:
       - cd myapp
       - zip -r ${version}.zip .
       - cd ../../../../
-      - sed 's/fileversion/${version}/g' cfn.json
+      - sed -i 's/fileversion/${version}/g' cfn.json
 artifacts:
   files:
     - TestPipeline/src/TestPipeline/myapp/${version}.zip
