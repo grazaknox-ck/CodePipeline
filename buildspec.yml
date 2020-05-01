@@ -17,4 +17,4 @@ phases:
       - cd ../../../
 artifacts:
   files:
-    - TestPipeline\src\TestPipeline\myapp.zip
+    - TestPipeline/src/TestPipeline/myapp.zip
