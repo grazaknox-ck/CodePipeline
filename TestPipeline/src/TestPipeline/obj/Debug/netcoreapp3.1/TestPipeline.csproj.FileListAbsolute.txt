@@ -1,0 +1,12 @@
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\bin\Debug\netcoreapp3.1\TestPipeline.deps.json
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\bin\Debug\netcoreapp3.1\TestPipeline.runtimeconfig.json
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\bin\Debug\netcoreapp3.1\TestPipeline.runtimeconfig.dev.json
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\bin\Debug\netcoreapp3.1\TestPipeline.dll
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\bin\Debug\netcoreapp3.1\TestPipeline.pdb
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Debug\netcoreapp3.1\TestPipeline.csprojAssemblyReference.cache
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Debug\netcoreapp3.1\TestPipeline.csproj.CoreCompileInputs.cache
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Debug\netcoreapp3.1\TestPipeline.AssemblyInfoInputs.cache
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Debug\netcoreapp3.1\TestPipeline.AssemblyInfo.cs
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Debug\netcoreapp3.1\TestPipeline.dll
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Debug\netcoreapp3.1\TestPipeline.pdb
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Debug\netcoreapp3.1\TestPipeline.genruntimeconfig.cache

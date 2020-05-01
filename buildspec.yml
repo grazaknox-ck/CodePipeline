@@ -12,8 +12,9 @@ phases:
     commands:
       - echo Build started on `date`
       - cd TestPipeline/src/TestPipeline/
-      - dotnet lambda package --self-contained true
+      - dotnet publish -o /myapp
+      - zip -r myapp.zip ./myapp/*
       - cd ../../../
 artifacts:
   files:
-    - TestPipeline\src\TestPipeline\bin\Release\netcoreapp3.1\TestPipeline.zip
+    - TestPipeline\src\TestPipeline\myapp.zip

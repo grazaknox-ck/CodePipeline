@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VBjfEh58w2McoTkEVkQ3l56DRn5eSHOUE++ENuqkOoeB6kHWRQiccXJ9Cv+DEeLX1wSjwAoQorIuMONDjr/lOQ==",
+  "dgSpecHash": "gw2C2ZO8dhsjdkpFjXDzYKITf8B2XIgcl0r2Zi1dCShCy0DeZAEtG15eP5KR21sTttuOpllhLLfU9f9tfj6pPw==",
   "success": true,
   "projectFilePath": "C:\\Work\\CodePipeline\\TestPipeline\\src\\TestPipeline\\TestPipeline.csproj",
   "expectedPackageFiles": [
