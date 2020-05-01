@@ -13,7 +13,8 @@ phases:
       - echo Build started on `date`
       - cd TestPipeline/src/TestPipeline/
       - dotnet publish -o /myapp
-      - zip -r myapp.zip ./myapp/*
+      - cd myapp
+      - zip -r myapp.zip .
       - cd ../../../
 artifacts:
   files:
