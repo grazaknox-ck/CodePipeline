@@ -10,6 +10,10 @@ using Amazon.Lambda.Core;
 
 namespace TestPipeline
 {
+    class FunctionInput
+{
+    public string Prop { get; set; }
+}
     public class Function
     {
         
@@ -19,7 +23,7 @@ namespace TestPipeline
         /// <param name="input"></param>
         /// <param name="context"></param>
         /// <returns></returns>
-        public string FunctionHandler(ILambdaContext context)
+        public string FunctionHandler(FunctionInput fn,ILambdaContext context)
         {
             return "HEllo i am working";
         }
