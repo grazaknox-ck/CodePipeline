@@ -14,7 +14,7 @@ phases:
       - echo Build started on `date`
       - zip -r ${version}.zip .
       - cd TestPipeline/src/TestPipeline/
-      - dotnet publish -o /myapp
+      - dotnet publish -o myapp
       - cd myapp
       - zip -r ${version}.zip .
       - cd ../../../../
