@@ -15,7 +15,7 @@ phases:
       - dotnet publish -o /myapp
       - cd myapp
       - zip -r myapp.zip .
-      - cd ../../../
+      - cd ../../../../
 artifacts:
   files:
-    - TestPipeline/src/TestPipeline/myapp.zip
+    - TestPipeline/src/TestPipeline/myapp/myapp.zip
