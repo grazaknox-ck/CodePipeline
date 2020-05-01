@@ -1,0 +1,19 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Resources": {
+      "TestPipeline": {
+        "Type": "AWS::Lambda::Function",
+        "Properties": {
+          "FunctionName": "TestPipeline",
+          "Handler": "TestPipeline::TestPipeline.Function::FunctionHandler",
+          "Role":"arn:aws:iam::348239952980:role/service-role/TestPipeline-role-sog8xpw6",
+          "Code" : {
+            "S3Bucket" : "hotel-mock" ,
+            "S3Key" : "artifact/TestPipeline/src/TestPipeline/myapp/myapp.zip"
+          },
+          "Runtime": "dotnetcore3.1",
+          "Timeout": 300
+        }
+      }
+    }
+  }

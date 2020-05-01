@@ -19,3 +19,4 @@ phases:
 artifacts:
   files:
     - TestPipeline/src/TestPipeline/myapp/myapp.zip
+    - cfn.json
