@@ -10,7 +10,7 @@ using Amazon.Lambda.Core;
 
 namespace TestPipeline
 {
-    class FunctionInput
+   public class FunctionInput
 {
     public string Prop { get; set; }
 }
