@@ -3,6 +3,7 @@ phases:
   pre_build:
     commands:
       - echo Installing AWS lambda Tools 
+      - version=1
       - dotnet tool install -g Amazon.Lambda.Tools
       - echo Installing AWS lambda Templates 
       - dotnet new -i 'Amazon.Lambda.Templates::*'
@@ -11,12 +12,13 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - zip -r ${version}.zip .
       - cd TestPipeline/src/TestPipeline/
       - dotnet publish -o /myapp
       - cd myapp
-      - zip -r myapp.zip .
+      - zip -r ${version}.zip .
       - cd ../../../../
 artifacts:
   files:
-    - TestPipeline/src/TestPipeline/myapp/myapp.zip
+    - TestPipeline/src/TestPipeline/myapp/${version}.zip
     - cfn.json
