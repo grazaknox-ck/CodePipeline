@@ -1,0 +1,12 @@
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\bin\Release\netcoreapp3.1\linux-x64\TestPipeline.deps.json
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\bin\Release\netcoreapp3.1\linux-x64\TestPipeline.runtimeconfig.json
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\bin\Release\netcoreapp3.1\linux-x64\TestPipeline.runtimeconfig.dev.json
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\bin\Release\netcoreapp3.1\linux-x64\TestPipeline.dll
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\bin\Release\netcoreapp3.1\linux-x64\TestPipeline.pdb
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Release\netcoreapp3.1\linux-x64\TestPipeline.csprojAssemblyReference.cache
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Release\netcoreapp3.1\linux-x64\TestPipeline.csproj.CoreCompileInputs.cache
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Release\netcoreapp3.1\linux-x64\TestPipeline.AssemblyInfoInputs.cache
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Release\netcoreapp3.1\linux-x64\TestPipeline.AssemblyInfo.cs
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Release\netcoreapp3.1\linux-x64\TestPipeline.dll
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Release\netcoreapp3.1\linux-x64\TestPipeline.pdb
+C:\Work\CodePipeline\TestPipeline\src\TestPipeline\obj\Release\netcoreapp3.1\linux-x64\TestPipeline.genruntimeconfig.cache

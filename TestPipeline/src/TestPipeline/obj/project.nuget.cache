@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VBjfEh58w2McoTkEVkQ3l56DRn5eSHOUE++ENuqkOoeB6kHWRQiccXJ9Cv+DEeLX1wSjwAoQorIuMONDjr/lOQ==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\CodePipeline\\TestPipeline\\src\\TestPipeline\\TestPipeline.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mayan\\.nuget\\packages\\amazon.lambda.core\\1.1.0\\amazon.lambda.core.1.1.0.nupkg.sha512",
+    "C:\\Users\\mayan\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.0.0\\amazon.lambda.serialization.systemtextjson.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

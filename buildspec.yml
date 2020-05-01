@@ -1,0 +1,19 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - echo Installing AWS lambda Tools 
+      - dotnet tool install -g Amazon.Lambda.Tools
+      - echo Installing AWS lambda Templates 
+      - dotnet new -i 'Amazon.Lambda.Templates::*'
+      - echo Restore started on `date`
+      - dotnet restore TestPipeline/src/TestPipeline/TestPipeline.csproj
+  build:
+    commands:
+      - echo Build started on `date`
+      - dotnet lambda package
+artifacts:
+  files:
+    - TestPipeline\src\TestPipeline\bin\Release\netcoreapp3.1\TestPipeline.zip
+    - scripts/**/*
+    - appspec.yml

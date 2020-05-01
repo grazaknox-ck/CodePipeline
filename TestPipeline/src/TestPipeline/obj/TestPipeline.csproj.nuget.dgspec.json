@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\TestPipeline\\src\\TestPipeline\\TestPipeline.csproj": {}
+    "C:\\Work\\CodePipeline\\TestPipeline\\src\\TestPipeline\\TestPipeline.csproj": {}
   },
   "projects": {
-    "C:\\Work\\TestPipeline\\src\\TestPipeline\\TestPipeline.csproj": {
+    "C:\\Work\\CodePipeline\\TestPipeline\\src\\TestPipeline\\TestPipeline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\TestPipeline\\src\\TestPipeline\\TestPipeline.csproj",
+        "projectUniqueName": "C:\\Work\\CodePipeline\\TestPipeline\\src\\TestPipeline\\TestPipeline.csproj",
         "projectName": "TestPipeline",
-        "projectPath": "C:\\Work\\TestPipeline\\src\\TestPipeline\\TestPipeline.csproj",
+        "projectPath": "C:\\Work\\CodePipeline\\TestPipeline\\src\\TestPipeline\\TestPipeline.csproj",
         "packagesPath": "C:\\Users\\mayan\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\TestPipeline\\src\\TestPipeline\\obj\\",
+        "outputPath": "C:\\Work\\CodePipeline\\TestPipeline\\src\\TestPipeline\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,11 +40,37 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Amazon.Lambda.Serialization.SystemTextJson": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }
