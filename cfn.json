@@ -9,7 +9,7 @@
           "Role":"arn:aws:iam::348239952980:role/service-role/TestPipeline-role-sog8xpw6",
           "Code" : {
             "S3Bucket" : "hotel-mock" ,
-            "S3Key" : "Test/TestPipeline/src/TestPipeline/myapp/fileversion.zip"
+            "S3Key" : "new/TestPipeline/src/TestPipeline/myapp/fileversion.zip"
           },
           "Runtime": "dotnetcore3.1",
           "Timeout": 300
