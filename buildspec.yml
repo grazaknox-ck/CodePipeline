@@ -4,7 +4,6 @@ phases:
     commands:
       - echo Installing AWS lambda Tools 
       - version=$(date +%s)
-      - dotnet -v
       - dotnet tool install -g Amazon.Lambda.Tools
       - echo Installing AWS lambda Templates 
       - dotnet new -i 'Amazon.Lambda.Templates::*'
