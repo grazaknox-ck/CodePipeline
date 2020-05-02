@@ -54,7 +54,7 @@
       "Properties": {
         "Handler": "Functions::{project_name_proper}.{project_name_proper}::{project_name_proper}Reader_Handler",
         "Runtime": "dotnetcore2.1",
-        "CodeUri": "s3://hotel-mock/new/TestPipeline/src/TestPipeline/myapp/1588400094.zip",
+        "CodeUri": "{code_location_to_s3}",
         "Description": "{env}-sls-RequestLoggingReader",
         "FunctionName": "{env}-sls-RequestLoggingReader",
         "MemorySize": 512,
@@ -118,7 +118,7 @@
       "Properties": {
         "Handler": "Functions::{project_name_proper}.{project_name_proper}::{project_name_proper}_Handler",
         "Runtime": "dotnetcore2.1",
-        "CodeUri": "s3://hotel-mock/new/TestPipeline/src/TestPipeline/myapp/1588400094.zip",
+        "CodeUri": "{code_location_to_s3}",
         "Description": "{env}-sls-{project_name}",
         "FunctionName": "{env}-sls-{project_name}",
         "MemorySize": 512,

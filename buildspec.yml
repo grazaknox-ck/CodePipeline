@@ -18,6 +18,11 @@ phases:
       - zip -r ${version}.zip .
       - cd ../../../../
       - sed -i "s/fileversion/$version/g" cfn.json
+      - sed -i "s/{env}/$env/g" template.json
+      - sed -i "s/{project_name_proper}/project_name_proper/g" template.json
+      - sed -i "s/{ENV}/$ENV/g" template.json
+      - sed -i "s/{xRefNum}/$xRefNum/g" template.json
+      - sed -i "s/{project_name}/$project_name/g" template.json
 artifacts:
   files:
     - TestPipeline/src/TestPipeline/myapp/${version}.zip
