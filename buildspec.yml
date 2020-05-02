@@ -13,11 +13,9 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - cd TestPipeline/src/TestPipeline/
-      - dotnet publish -o myapp
-      - cd myapp
-      - zip -r ${version}.zip .
-      - cd ../../../../
+      - ls 
+      - dotnet publish TestPipeline/src/TestPipeline/ -o myapp
+      - zip -r -j ${version}.zip myapp/*
       - sed -i "s/fileversion/$version/g" cfn.json
       - sed -i "s/{env}/$env/g" template.json
       - sed -i "s/{project_name_proper}/project_name_proper/g" template.json
@@ -26,9 +24,8 @@ phases:
       - sed -i "s/{code_location_to_s3}/$xRefNum/g" template.json
       - sed -i "s/{project_name}/$project_name/g" template.json
       - ls
-      - aws s3 cp . s3://hotel-mock/new/ --recursive
+      - aws s3 cp ${version}.zip s3://hotel-mock/new/ --recursive
 
 artifacts:
   files:
-    - TestPipeline/src/TestPipeline/myapp/${version}.zip
     - cfn.json
