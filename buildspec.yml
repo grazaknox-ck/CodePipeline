@@ -2,8 +2,9 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      - version=$(date +%s)
+      - ls
       - echo Installing AWS lambda Tools 
-      - $ printf -v version '%(%s)T' -1
       - dotnet tool install -g Amazon.Lambda.Tools
       - echo Installing AWS lambda Templates 
       - dotnet new -i 'Amazon.Lambda.Templates::*'
