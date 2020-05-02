@@ -1,8 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Deterministic>false</Deterministic>
-    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+  <TargetFramework>netcoreapp3.1</TargetFramework>
+  <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  <Deterministic>False</Deterministic>
+  <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     <AWSProjectType>Lambda</AWSProjectType>
   </PropertyGroup>
   <ItemGroup>
